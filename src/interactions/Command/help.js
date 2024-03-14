@@ -29,24 +29,6 @@ module.exports = {
                             emoji: "💻",
                             value: "commands-Bothelp",
                         },
-                        {
-                            label: `Invite`,
-                            description: `Invite Bot to your server`,
-                            emoji: "📨",
-                            value: "invite-Bothelp",
-                        },
-                        {
-                            label: `Support server`,
-                            description: `Join the suppport server`,
-                            emoji: "❓",
-                            value: "support-Bothelp",
-                        },
-                        {
-                            label: `Changelogs`,
-                            description: `Show the bot changelogs`,
-                            emoji: "📃",
-                            value: "changelogs-Bothelp",
-                        },
                     ]),
             );
 
@@ -65,7 +47,7 @@ module.exports = {
                 },
                 {
                     name: `🔗┆Links`,
-                    value: `[Website](https://corwindev.nl/) | [Invite](${client.config.discord.botInvite}) | [Vote](https://top.gg/bot/798144456528363550/vote)`
+                    value: `[Website](https://discord.gg/7yerwHMFFN)`
                 },
             ],
             components: [row],
